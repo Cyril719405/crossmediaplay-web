@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+a { color: #ff6a00; text-decoration: none; }
+header, footer {
+  padding: 20px;
+  background: #000;
+}
+nav a {
+  margin-right: 15px;
+}
+.section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ff6a00;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
