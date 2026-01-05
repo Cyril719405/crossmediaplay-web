@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd cross-media-play-website && npm run build",
+  "outputDirectory": "cross-media-play-website/.next"
+}
