@@ -22,7 +22,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Segoe UI', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        nexa: ['Nexa', 'sans-serif'],
+        sans: ['Nexa', 'Segoe UI', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
       },
     },
   },

@@ -156,13 +156,13 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-t from-dark to-transparent pointer-events-none" />
 
         <div className="max-w-4xl relative z-10">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6">
             Conectamos marcas con{' '}
             <span className="bg-gradient-to-r from-orange-primary to-orange-dark bg-clip-text text-transparent">
               millones de hogares
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto not-italic font-normal">
             Comercialización de espacios publicitarios en TV Cable y<br className="hidden md:block" />medios digitales en Chile
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
