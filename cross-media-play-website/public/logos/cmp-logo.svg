@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.62 143.01">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Nexa-ExtraBold, Nexa;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff9f5;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #fff9f5;
+        stroke-miterlimit: 10;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        font-size: 68px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: Nexa-Book, Nexa;
+        font-size: 25px;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <rect class="cls-5" x="7.5" y="9.47" width="121.62" height="121.62" rx="13.6" ry="13.6"/>
+    <path class="cls-3" d="M39.46,37.05l-.02,66.46c0,4.1,4.46,6.63,7.98,4.54l56.64-33.73c2.95-1.76,2.96-6.03.01-7.79l-56.62-34c-3.52-2.11-7.99.42-8,4.52Z"/>
+    <text class="cls-1" transform="translate(162.18 40.8)"><tspan class="cls-12" x="0" y="0">C</tspan><tspan class="cls-13" x="34.08" y="0">R</tspan><tspan class="cls-12" x="68.93" y="0">OSSMEDI</tspan><tspan class="cls-8" x="300.09" y="0">A</tspan></text>
+    <text class="cls-2" transform="translate(161.18 104.26)"><tspan x="0" y="0">PL</tspan><tspan class="cls-6" x="87.99" y="0">A</tspan><tspan class="cls-9" x="135.66" y="0">Y</tspan></text>
+    <text class="cls-4" transform="translate(162.18 135.56)"><tspan x="0" y="0">UN</tspan><tspan class="cls-10" x="37.6" y="0">A</tspan><tspan x="55.65" y="0" xml:space="preserve"> EMPR</tspan><tspan class="cls-11" x="136" y="0">E</tspan><tspan class="cls-7" x="152.27" y="0">S</tspan><tspan class="cls-10" x="168.3" y="0">A</tspan><tspan x="186.35" y="0" xml:space="preserve"> DE MEDIOS</tspan></text>
+  </g>
+</svg>

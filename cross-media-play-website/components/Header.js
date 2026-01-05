@@ -33,7 +33,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logos/cmp-logo.jpeg"
+            src="/logos/cmp-logo.svg"
             alt="Cross Media Play"
             width={120}
             height={50}

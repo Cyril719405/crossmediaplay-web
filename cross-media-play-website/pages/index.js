@@ -45,7 +45,7 @@ const services = [
       </svg>
     ),
     title: 'Venta de Espacios',
-    description: 'Comercializamos espacios publicitarios en los principales canales de TV Cable de Chile.',
+    description: 'Comercializamos espacios publicitarios en TV Cable y medios digitales en Chile.',
   },
   {
     icon: (
@@ -118,21 +118,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cross Media Play | Publicidad en TV Cable Chile</title>
-        <meta name="description" content="Comercialización de espacios publicitarios en TV Cable en Chile. Representamos a Universal TV, Studio Universal, Telemundo, USA Network, E! y Universal+." />
+        <title>Cross Media Play | Publicidad en TV Cable y Medios Digitales</title>
+        <meta name="description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile. Representamos a Universal TV, Studio Universal, Telemundo, USA Network, E! y Universal+." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logos/cmp-logo.jpeg" />
+        <link rel="icon" href="/logos/cmp-logo.svg" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Cross Media Play | Publicidad en TV Cable Chile" />
-        <meta property="og:description" content="Comercialización de espacios publicitarios en TV Cable en Chile." />
-        <meta property="og:image" content="/logos/cmp-logo.jpeg" />
+        <meta property="og:title" content="Cross Media Play | Publicidad en TV Cable y Medios Digitales" />
+        <meta property="og:description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile." />
+        <meta property="og:image" content="/logos/cmp-logo.svg" />
         <meta property="og:type" content="website" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Cross Media Play | Publicidad en TV Cable Chile" />
-        <meta name="twitter:description" content="Comercialización de espacios publicitarios en TV Cable en Chile." />
+        <meta name="twitter:title" content="Cross Media Play | Publicidad en TV Cable y Medios Digitales" />
+        <meta name="twitter:description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile." />
       </Head>
 
       <Header />
@@ -163,7 +163,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Comercialización de espacios publicitarios en TV Cable en Chile
+            Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contacto" className="btn-primary">
@@ -189,7 +189,7 @@ export default function Home() {
                 Una empresa de medios
               </h3>
               <p className="text-gray-400 mb-4 text-lg">
-                Cross Media Play es una empresa especializada en la comercialización de espacios publicitarios en TV Cable en Chile.
+                Cross Media Play es una empresa especializada en la comercialización de espacios publicitarios en TV Cable y medios digitales en Chile.
               </p>
               <p className="text-gray-400 mb-4">
                 Trabajamos con los principales canales de televisión por cable, conectando marcas con millones de hogares a través de contenido de alta calidad.
