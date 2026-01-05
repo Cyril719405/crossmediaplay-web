@@ -17,6 +17,25 @@ const channels = [
   { name: 'Tastemade', logo: '/logos/tastemade.webp' },
 ];
 
+// Datos de clientes
+const clients = [
+  { name: 'Apple', logo: null },
+  { name: 'Netflix', logo: null },
+  { name: 'L\'Oréal', logo: null },
+  { name: 'Entel', logo: null },
+  { name: 'UNICEF', logo: null },
+  { name: 'Beiersdorf', logo: null },
+  { name: 'Kraft Heinz', logo: null },
+  { name: 'Lindt', logo: null },
+  { name: 'AIEP', logo: null },
+  { name: 'Polla Chilena', logo: null },
+  { name: 'ECU', logo: null },
+  { name: 'Galderma', logo: null },
+  { name: 'Farmacias Knop', logo: null },
+  { name: 'Cosmetica Nacional', logo: null },
+  { name: 'PedidosYa', logo: null },
+];
+
 // Datos de servicios
 const services = [
   {
@@ -227,7 +246,10 @@ export default function Home() {
           <div className="section-title">
             <h2>Canales Representados</h2>
             <p className="text-gray-400 mt-6 max-w-xl mx-auto">
-              Trabajamos con los principales canales de TV Cable
+              Trabajamos con los principales canales de TV Cable y Streaming
+            </p>
+            <p className="text-orange-primary font-semibold mt-4">
+              Representante exclusivo de NBCUniversal Networks en Chile
             </p>
           </div>
 
@@ -255,20 +277,34 @@ export default function Home() {
       </section>
 
       {/* Clientes Section */}
-      <section id="clientes" className="py-20 md:py-28 px-5 bg-dark text-center animate-on-scroll">
-        <div className="max-w-3xl mx-auto">
+      <section id="clientes" className="py-20 md:py-28 px-5 bg-dark animate-on-scroll">
+        <div className="max-w-6xl mx-auto">
           <div className="section-title">
             <h2>Nuestros Clientes</h2>
+            <p className="text-gray-400 mt-6 max-w-xl mx-auto">
+              Trabajamos con los principales anunciantes del mercado chileno
+            </p>
           </div>
 
-          <p className="text-gray-400 text-lg md:text-xl leading-relaxed mb-8">
-            Trabajamos con los principales anunciantes y agencias del mercado chileno, llevando sus marcas a millones de hogares.
-          </p>
-
-          <div className="inline-block card-glass px-8 py-5">
-            <span className="text-orange-primary font-semibold">
-              Agencias y anunciantes líderes en Chile
-            </span>
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            {clients.map((client, index) => (
+              <div
+                key={index}
+                className="bg-white/5 border border-white/10 p-4 md:p-6 flex items-center justify-center min-h-[80px] rounded-xl transition-all duration-300 hover:border-orange-primary/30 hover:bg-white/10"
+              >
+                {client.logo ? (
+                  <Image
+                    src={client.logo}
+                    alt={client.name}
+                    width={100}
+                    height={50}
+                    className="max-w-[70px] md:max-w-[100px] max-h-[30px] md:max-h-[50px] object-contain"
+                  />
+                ) : (
+                  <span className="text-gray-300 font-medium text-xs md:text-sm text-center">{client.name}</span>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
