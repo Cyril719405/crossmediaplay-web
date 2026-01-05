@@ -163,7 +163,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile
+            Comercialización de espacios publicitarios en TV Cable y<br className="hidden md:block" />medios digitales en Chile
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contacto" className="btn-primary">
