@@ -9,9 +9,9 @@ const channels = [
   { name: 'Universal TV', logo: '/logos/universal-tv.png' },
   { name: 'Studio Universal', logo: '/logos/studio-universal.png' },
   { name: 'Telemundo', logo: '/logos/telemundo.png' },
-  { name: 'USA Network', logo: '/logos/usa.svg' },
+  { name: 'USA Network', logo: '/logos/usa.png' },
   { name: 'E! Entertainment', logo: '/logos/e-entertainment.png' },
-  { name: 'Universal+', logo: '/logos/universal-plus.svg' },
+  { name: 'Universal+', logo: '/logos/universal-plus.png' },
   { name: 'PorcelTV', logo: '/logos/porceltv.webp' },
   { name: 'Etermax', logo: '/logos/etermax.png' },
   { name: 'Tastemade', logo: '/logos/tastemade.webp' },
@@ -121,12 +121,12 @@ export default function Home() {
         <title>Cross Media Play | Publicidad en TV Cable y Medios Digitales</title>
         <meta name="description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile. Representamos a Universal TV, Studio Universal, Telemundo, USA Network, E! y Universal+." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logos/cmp-logo.svg" />
+        <link rel="icon" href="/logos/cmp-logo.png" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Cross Media Play | Publicidad en TV Cable y Medios Digitales" />
         <meta property="og:description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile." />
-        <meta property="og:image" content="/logos/cmp-logo.svg" />
+        <meta property="og:image" content="/logos/cmp-logo.png" />
         <meta property="og:type" content="website" />
 
         {/* Twitter */}

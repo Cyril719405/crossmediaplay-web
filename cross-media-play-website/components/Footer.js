@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto text-center">
         <div className="mb-6">
           <Image
-            src="/logos/cmp-logo.svg"
+            src="/logos/cmp-logo.png"
             alt="Cross Media Play"
             width={100}
             height={40}
