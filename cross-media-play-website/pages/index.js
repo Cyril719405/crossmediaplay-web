@@ -302,19 +302,21 @@ export default function Home() {
             {clients.map((client, index) => (
               <div
                 key={index}
-                className="bg-white/5 border border-white/10 p-4 md:p-6 flex items-center justify-center min-h-[80px] rounded-xl transition-all duration-300 hover:border-orange-primary/30 hover:bg-white/10"
+                className="p-[1px] rounded-xl bg-gradient-to-r from-orange-primary to-orange-dark transition-all duration-300 hover:scale-105"
               >
-                {client.logo ? (
-                  <Image
-                    src={client.logo}
-                    alt={client.name}
-                    width={100}
-                    height={50}
-                    className="max-w-[70px] md:max-w-[100px] max-h-[30px] md:max-h-[50px] object-contain"
-                  />
-                ) : (
-                  <span className="text-gray-300 font-medium text-xs md:text-sm text-center">{client.name}</span>
-                )}
+                <div className="bg-dark h-full p-4 md:p-6 flex items-center justify-center min-h-[80px] rounded-xl">
+                  {client.logo ? (
+                    <Image
+                      src={client.logo}
+                      alt={client.name}
+                      width={100}
+                      height={50}
+                      className="max-w-[70px] md:max-w-[100px] max-h-[30px] md:max-h-[50px] object-contain"
+                    />
+                  ) : (
+                    <span className="text-gray-300 font-medium text-xs md:text-sm text-center">{client.name}</span>
+                  )}
+                </div>
               </div>
             ))}
           </div>
