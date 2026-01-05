@@ -1,4 +1,6 @@
 {
+  "installCommand": "cd cross-media-play-website && npm install",
   "buildCommand": "cd cross-media-play-website && npm run build",
-  "outputDirectory": "cross-media-play-website/.next"
+  "outputDirectory": "cross-media-play-website/.next",
+  "framework": "nextjs"
 }
