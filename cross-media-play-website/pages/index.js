@@ -29,7 +29,7 @@ const clients = [
   { name: 'Lindt', logo: null },
   { name: 'AIEP', logo: null },
   { name: 'Polla Chilena', logo: null },
-  { name: 'ECU', logo: null },
+  { name: 'ECUSA', logo: null },
   { name: 'Galderma', logo: null },
   { name: 'Farmacias Knop', logo: null },
   { name: 'Cosmetica Nacional', logo: null },
@@ -121,7 +121,7 @@ export default function Home() {
         <title>Cross Media Play | Publicidad en TV Cable y Medios Digitales</title>
         <meta name="description" content="Comercialización de espacios publicitarios en TV Cable y medios digitales en Chile. Representamos a Universal TV, Studio Universal, Telemundo, USA Network, E! y Universal+." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logos/cmp-logo.png" />
+        <link rel="icon" href="/favicon.png" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Cross Media Play | Publicidad en TV Cable y Medios Digitales" />
