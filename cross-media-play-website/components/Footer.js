@@ -16,7 +16,7 @@ export default function Footer() {
           />
         </div>
         <p className="text-gray-500 text-sm">
-          {currentYear} Cross Media Play. Una empresa de medios
+          © {currentYear} Cross Media Play®. Una empresa de medios. Todos los derechos reservados.
         </p>
         <p className="text-gray-600 text-xs mt-1">
           La Capitania 80, oficina 108 - Chile
