@@ -138,7 +138,19 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center text-center px-5 pt-28 pb-20 relative overflow-hidden bg-gradient-to-br from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]">
+      <section className="min-h-screen flex items-center justify-center text-center px-5 pt-28 pb-20 relative overflow-hidden">
+        {/* Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover blur-sm scale-105"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/70" />
         {/* Background glow */}
         <div className="absolute top-[-50%] right-[-20%] w-[80%] h-[150%] bg-[radial-gradient(ellipse,rgba(245,124,0,0.08)_0%,transparent_70%)] pointer-events-none" />
         <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-t from-dark to-transparent pointer-events-none" />
